@@ -26,7 +26,7 @@ def page(fname, title, body, desc='Projects, photography and notes by Anwar Khan
 <main id="main">{body}</main>
 <footer class="site-foot"><div class="wrap"><div>Anwar Khan · Atholton High School, Class of 2027<br>
 <a href="mailto:spfmakerclub@gmail.com">spfmakerclub@gmail.com</a></div>
-<div><a href="{WP}">SPF Maker Club</a> &nbsp; <a href="https://www.thingiverse.com/AcidicCane/designs">Thingiverse</a> &nbsp; <a href="https://grabcad.com/anwar.o.khan-1">GrabCAD</a> &nbsp; <a href="https://atholton-electronics-club.vercel.app/">Electronics Club</a></div></div></footer>
+<div><a href="assets/anwar-khan-photography-portfolio.pdf">Photography portfolio (PDF)</a> &nbsp; <a href="{WP}">SPF Maker Club</a> &nbsp; <a href="https://www.thingiverse.com/AcidicCane/designs">Thingiverse</a> &nbsp; <a href="https://grabcad.com/anwar.o.khan-1">GrabCAD</a> &nbsp; <a href="https://atholton-electronics-club.vercel.app/">Electronics Club</a></div></div></footer>
 <div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer"><button type="button">Close</button><figure><img alt=""><figcaption></figcaption></figure></div>
 <script src="site.js"></script></body></html>'''
     open(os.path.join(ROOT, fname), 'w').write(doc)
@@ -62,6 +62,7 @@ wall = ''.join(
     for s, c, t, m in PH)
 page('photographs.html', 'Photography · Anwar Khan', f'''<div class="wrap">
 <section class="page-head"><h1>Photography</h1><p class="lede">Cars at the track, city streets, the water, soccer, and Loki. I shoot film and digital. The strongest frames are first.</p></section>
+<section class="pf"><a class="pf-cover" href="assets/anwar-khan-photography-portfolio.pdf"><img src="assets/portfolio-cover.jpg" alt="Cover of my photography portfolio" loading="lazy"></a><div><h2>Photography portfolio</h2><p>Ten selected photographs from 2023 to 2025, digital, 35mm film and composite, each with a short note on how and why I took it.</p><div class="link-row"><a class="btn big yellow" href="assets/anwar-khan-photography-portfolio.pdf">View the portfolio (PDF)</a><a class="btn ghost" href="assets/anwar-khan-photography-portfolio.pdf" download>Download</a></div></div></section>
 <div class="filters" role="group" aria-label="Filter photos">{''.join(f'<button type="button" data-filter="{k}" aria-pressed="{"true" if k=="all" else "false"}">{v}</button>' for k,v in filters)}</div>
 <div class="wall">{wall}</div></div>''', 'Film and digital photography by Anwar Khan.')
 
@@ -117,6 +118,6 @@ page('index.html', 'Anwar Khan', f'''<div class="wrap">
 <section class="club"><div><h2>SPF Maker Club</h2><p>The full build journals live on the Maker Club site, which I've run since January 2023: every calculation, failed print and fix, project by project.</p></div><a class="btn big yellow" href="{WP}">Visit SPF Maker Club</a></section>
 <section class="section"><div class="section-head"><h2>Projects</h2><a href="work.html">All {len(P)} projects</a></div><div class="mini-grid">{mini}</div></section>
 <section class="section"><div class="section-head"><h2>From the notebook</h2><a href="notebook.html">Read the notebook</a></div><div class="mini-grid">{notes}</div></section>
-<section class="section"><div class="section-head"><h2>Photography</h2><a href="photographs.html">See all photos</a></div><div class="wall">{photos}</div></section>
+<section class="section"><div class="section-head"><h2>Photography</h2><div class="link-row" style="margin:0"><a href="photographs.html">See all photos</a> &nbsp; <a href="assets/anwar-khan-photography-portfolio.pdf">Portfolio (PDF)</a></div></div><div class="wall">{photos}</div></section>
 </div>''')
 print('built')
