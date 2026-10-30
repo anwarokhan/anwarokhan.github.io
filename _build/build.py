@@ -42,7 +42,7 @@ def project_block(p):
 <div class="project-media"><img src="{p['img']}" alt="{e(p['alt'])}" loading="lazy"></div>
 <div><p class="kind">{e(p['kind'])}</p><h2>{e(p['title'])}</h2>
 {''.join(f'<p>{x}</p>' for x in p['text'])}
-<div class="link-row"><a class="btn big" href="{p['url']}">Read the full build journal</a></div></div></article>'''
+<div class="link-row"><a class="btn big" href="{p['url']}">Read the full build journal</a>{''.join(f'<a class="btn ghost" href="{u}">{e(t)}</a>' for u,t in p.get('models',[]))}</div></div></article>'''
 
 page('work.html', 'Work · Anwar Khan', f'''<div class="wrap">
 <section class="page-head"><h1>Work</h1><p class="lede">Everything I've built since I took over SPF Maker Club in 2023: my own projects, a team project with the Electronics Club, and software from my internship. Each one has a full build journal on the Maker Club site with the photos, calculations, failures and fixes.</p></section>

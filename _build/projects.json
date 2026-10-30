@@ -10,6 +10,16 @@
   "text": [
    "The biggest thing I have built. I wanted my racing simulator to actually move, so I started designing a motion platform under it. The first layout was a pentapod with bent connecting rods. When a quote came back at $114 per rod, I redesigned it as a compact hexapod with straight members.",
    "Along the way I ran FEA on the arms and frame, worked out the inverse kinematics and motor torque math in my own design workbook, wired the drives and power distribution, and built a full-scale model with printed gearboxes to debug homing, direction and geometry before buying final parts. The aluminum-extrusion cockpit is assembled, and I am now moving toward a more compact three-axis platform."
+  ],
+  "models": [
+   [
+    "https://a360.co/4yTt4wz",
+    "Platform base in 3D"
+   ],
+   [
+    "https://a360.co/4zl4FRu",
+    "Upper rig in 3D"
+   ]
   ]
  },
  {
@@ -22,6 +32,12 @@
   "short": "A solar water-quality buoy. I lead the mechanical team.",
   "text": [
    "Our Electronics Club’s floating water-quality station: it runs on solar power, samples the water it sits in, and uploads what it measures so anyone can check it. I co-founded the club and lead its mechanical team, so the hull, mounts, panels and enclosure are mine to figure out with the team. The steep A-frame solar panels keep it powered as it turns on its anchor. A foam ring at the waterline keeps it upright in wind. A teammate learning heat simulations caught that my antenna mount was hurting the signal, and we redesigned it together. We tested it through the ice in February, made the Samsung Solve for Tomorrow national semifinals as one of two Maryland teams (winning $10,000 for our school), and just got approval to launch in Lake Elkhorn."
+  ],
+  "models": [
+   [
+    "https://a360.co/4sSlGQV",
+    "View the buoy in 3D"
+   ]
   ]
  },
  {
