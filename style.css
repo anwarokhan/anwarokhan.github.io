@@ -163,9 +163,11 @@ p{margin:0 0 1.1em;max-width:var(--measure)}
 /* JS masonry keeps rank order reading left to right */
 .wall.js{columns:auto;display:flex;gap:18px;align-items:flex-start}
 .wall.js .col{flex:1 1 0;min-width:0}
-/* portfolio band (photography page) */
-.pf{display:grid;grid-template-columns:minmax(0,300px) minmax(0,1fr);gap:34px;align-items:center;background:var(--surface);border:1px solid var(--line);border-left:10px solid var(--yellow);border-radius:8px;padding:24px 30px;margin:0 0 34px}
-.pf-cover img{width:100%;height:auto;border-radius:4px;box-shadow:0 1px 0 var(--line)}
-.pf h2{margin:0 0 6px}
-.pf p{margin:0 0 6px}
-@media (max-width:760px){.pf{grid-template-columns:1fr;padding:20px}}
+/* photography page head with portfolio */
+.ph-head{display:grid;grid-template-columns:minmax(0,1.3fr) minmax(0,1fr);gap:48px;align-items:end}
+.ph-cover{display:block;text-decoration:none;color:var(--steel);font-size:.9rem}
+.ph-cover img{width:100%;height:auto;border-radius:4px;box-shadow:0 10px 30px rgba(24,33,29,.14);transition:transform .25s var(--ease)}
+.ph-cover:hover img{transform:translateY(-3px)}
+.ph-cover span{display:block;margin-top:10px}
+.ph-head .link-row{margin-top:4px}
+@media (max-width:860px){.ph-head{grid-template-columns:1fr;gap:24px}.ph-cover{max-width:420px}}

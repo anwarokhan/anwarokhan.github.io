@@ -61,8 +61,11 @@ wall = ''.join(
     f'<figure data-full="{e(s)}" data-caption="{e(c)}" data-tags="{e(t)}"><img src="{e(s)}" {dims(s)} alt="{e(c.split(":")[0])}" loading="lazy"><figcaption><b>{e(c.split(":")[0])}</b>{(" · " + e(m)) if m else ""}</figcaption></figure>'
     for s, c, t, m in PH)
 page('photographs.html', 'Photography · Anwar Khan', f'''<div class="wrap">
-<section class="page-head"><h1>Photography</h1><p class="lede">Cars at the track, city streets, the water, soccer, and Loki. I shoot film and digital. The strongest frames are first.</p></section>
-<section class="pf"><a class="pf-cover" href="assets/anwar-khan-photography-portfolio.pdf"><img src="assets/portfolio-cover.jpg" alt="Cover of my photography portfolio" loading="lazy"></a><div><h2>Photography portfolio</h2><p>Ten selected photographs from 2023 to 2025, digital, 35mm film and composite, each with a short note on how and why I took it.</p><div class="link-row"><a class="btn big yellow" href="assets/anwar-khan-photography-portfolio.pdf">View the portfolio (PDF)</a><a class="btn ghost" href="assets/anwar-khan-photography-portfolio.pdf" download>Download</a></div></div></section>
+<section class="page-head ph-head"><div><h1>Photography</h1><p class="lede">Cars at the track, city streets, the water, soccer, and Loki. I shoot film and digital. The strongest frames are first.</p>
+<p>My portfolio collects ten of my favorite photographs from 2023 to 2025, each with a short note on how and why I took it.</p>
+<div class="link-row"><a class="btn" href="assets/anwar-khan-photography-portfolio.pdf">View my portfolio (PDF)</a><a class="btn ghost" href="assets/anwar-khan-photography-portfolio.pdf" download>Download PDF</a></div></div>
+<a class="ph-cover" href="assets/anwar-khan-photography-portfolio.pdf" aria-label="Open my photography portfolio (PDF)"><img src="assets/portfolio-cover.jpg" alt="Cover of my photography portfolio"><span>Photography portfolio · PDF</span></a></section>
+
 <div class="filters" role="group" aria-label="Filter photos">{''.join(f'<button type="button" data-filter="{k}" aria-pressed="{"true" if k=="all" else "false"}">{v}</button>' for k,v in filters)}</div>
 <div class="wall">{wall}</div></div>''', 'Film and digital photography by Anwar Khan.')
 
