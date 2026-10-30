@@ -1,0 +1,148 @@
+[
+ {
+  "group": "Project films",
+  "items": [
+   {
+    "title": "Aqua Guardian: SSFT submission",
+    "meta": "AHS Electronics Club \u00b7 2026",
+    "vimeo": "1165198659"
+   },
+   {
+    "title": "Go-kart: first laps after the rebuild",
+    "meta": "Go-kart build \u00b7 2025",
+    "youtube": "TibqmmFja4M"
+   },
+   {
+    "title": "Go-kart: on track",
+    "meta": "Go-kart build \u00b7 2025",
+    "youtube": "-8FDpJu7exo"
+   },
+   {
+    "title": "6DoF motion sim: axis test",
+    "meta": "6DoF Motion Sim \u00b7 2025",
+    "vimeo": "1078172912"
+   },
+   {
+    "title": "Inside our buoy",
+    "meta": "Aqua Guardian \u00b7 wiring and electronics",
+    "src": "assets/aqua-guardian-inside.mp4",
+    "poster": "assets/aqua-guardian-inside-poster.jpg"
+   }
+  ]
+ },
+ {
+  "group": "In the lab",
+  "items": [
+   {
+    "title": "Sanding the triple-monitor bracket",
+    "meta": "Sim rig \u00b7 custom metal bracket",
+    "src": "assets/monitor-bracket-sanding.mp4",
+    "poster": "assets/monitor-bracket-sanding.jpg"
+   },
+   {
+    "title": "Shaping a metal part for the monitor mount",
+    "meta": "Sim rig \u00b7 September 2026",
+    "src": "assets/wood-shaping-september-2026.mp4",
+    "poster": "assets/wood-shaping-september-2026.jpg",
+    "muted": true
+   },
+   {
+    "title": "Team workshop",
+    "meta": "Electronics Club \u00b7 February 2026",
+    "src": "assets/electronics-team-bench.mp4",
+    "poster": "assets/electronics-team-bench.jpg",
+    "muted": true
+   },
+   {
+    "title": "Sim racing on the rig",
+    "meta": "January 2023",
+    "src": "assets/sim-racing-2023.mp4",
+    "poster": "assets/sim-racing-2023.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Aqua Guardian lake test",
+  "items": [
+   {
+    "title": "Chipping at the ice",
+    "meta": "February 2026",
+    "src": "assets/lake-ice-chipping.mp4",
+    "poster": "assets/lake-ice-chipping.jpg",
+    "muted": true
+   },
+   {
+    "title": "At the ice opening",
+    "meta": "February 2026",
+    "src": "assets/lake-test-ice-opening.mp4",
+    "poster": "assets/lake-test-ice-opening.jpg",
+    "muted": true
+   },
+   {
+    "title": "Putting the buoy in the water",
+    "meta": "February 2026",
+    "src": "assets/buoy-release-ice.mp4",
+    "poster": "assets/buoy-release-ice.jpg",
+    "muted": true
+   },
+   {
+    "title": "Buoy on the water",
+    "meta": "February 2026",
+    "src": "assets/buoy-floating-lake.mp4",
+    "poster": "assets/buoy-floating-lake.jpg",
+    "muted": true
+   }
+  ]
+ },
+ {
+  "group": "Track and earlier",
+  "items": [
+   {
+    "title": "Trackside at Dominion",
+    "meta": "November 2025",
+    "src": "assets/dominion-trackside-yellow-car.mp4",
+    "poster": "assets/dominion-trackside-yellow-car.jpg",
+    "muted": true
+   },
+   {
+    "title": "Trackside footage",
+    "meta": "December 2024",
+    "src": "assets/raceway-trackside-car-44.mp4",
+    "poster": "assets/raceway-trackside-car-44.jpg",
+    "muted": true
+   },
+   {
+    "title": "Coming back to give a speech",
+    "meta": "September 2022 \u00b7 Malcolm E. Nettingham Middle School",
+    "src": "assets/convocation-speech.mp4",
+    "poster": "assets/convocation-speech-poster.jpg"
+   },
+   {
+    "title": "Home simulator",
+    "meta": "January 2022",
+    "src": "assets/home-simulator-wheel-2022.mp4",
+    "poster": "assets/home-simulator-wheel-2022.jpg",
+    "muted": true
+   },
+   {
+    "title": "Odyssey of the Mind: building the clown car",
+    "meta": "2019",
+    "src": "assets/odyssey-build-2019-a.mp4",
+    "poster": "assets/odyssey-build-2019-a.jpg"
+   },
+   {
+    "title": "Odyssey of the Mind: testing",
+    "meta": "2019",
+    "src": "assets/odyssey-build-2019-b.mp4",
+    "poster": "assets/odyssey-build-2019-b.jpg"
+   },
+   {
+    "title": "Learning to solder",
+    "meta": "March 2019",
+    "src": "assets/workbench-timelapse.mp4",
+    "poster": "assets/workbench-timelapse-poster.jpg",
+    "muted": true
+   }
+  ]
+ }
+]

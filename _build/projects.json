@@ -1,0 +1,115 @@
+[
+ {
+  "id": "motion-sim",
+  "title": "6DoF Motion Simulator",
+  "kind": "Mechanical design, controls and FEA \u00b7 December 2024 to now",
+  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2026/02/ani6880-1.jpg?w=1000",
+  "alt": "The aluminum-extrusion cockpit frame for my motion simulator",
+  "url": "https://spfmakerclub.wordpress.com/6dof-motion-sim/",
+  "short": "A motion platform for my sim rig, from FEA and kinematics to a full-scale test model.",
+  "text": [
+   "The biggest thing I have built. I wanted my racing simulator to move with the car, so I started designing a motion platform under it. The first layout was a pentapod with bent connecting rods. When a quote came back at $114 per rod, I redesigned it as a compact hexapod with straight members.",
+   "Along the way I ran FEA on the arms and frame, worked out the inverse kinematics and motor torque math in my own design workbook, wired the drives and power distribution, and built a full-scale model with printed gearboxes to debug homing, direction and geometry before buying final parts. The aluminum-extrusion cockpit is assembled, and I am now moving toward a more compact three-axis platform."
+  ]
+ },
+ {
+  "id": "aqua-guardian",
+  "title": "Aqua Guardian",
+  "kind": "Team project with the Atholton Electronics Club \u00b7 2025 to now",
+  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2026/10/aqua-guardian-2026-01-wiring-dome.jpg?w=1000",
+  "alt": "Wiring the electronics inside the orange buoy dome",
+  "url": "https://spfmakerclub.wordpress.com/aqua-guardian-ahs-electronics-club/",
+  "short": "A solar water-quality buoy. I lead the mechanical team.",
+  "text": [
+   "A solar-powered buoy that measures water quality and sends the readings over a cellular connection. I co-founded the Electronics Club and lead its mechanical team, so the hull, mounts, panels and enclosure are mine to figure out with the team.",
+   "The steep A-frame solar panels keep it powered as it turns on its anchor. A foam ring at the waterline keeps it upright in wind. A teammate learning heat simulations caught that my antenna mount was hurting the signal, and we redesigned it together. We tested it through the ice in February, made it to the Samsung Solve for Tomorrow semifinals, and just got approval to launch in Lake Elkhorn."
+  ]
+ },
+ {
+  "id": "sim-dash",
+  "title": "Sim Racing Dash",
+  "kind": "Raspberry Pi, Linux and 3D printing \u00b7 2025 to 2026",
+  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2026/10/simdash-front-screen.jpg?w=1000",
+  "alt": "The printed dash case with its 3.5-inch screen lit up",
+  "url": "https://spfmakerclub.wordpress.com/sim-racing-dash/",
+  "short": "A $100 dashboard rebuilt from a spare Raspberry Pi and a printed case.",
+  "text": [
+   "I needed a dashboard in front of me for RPMs, and the ones online cost $100 or more. I had a Raspberry Pi 3B+ and a small touchscreen lying around, so I designed a case that mounts to my Moza wheel base and posted it on Thingiverse.",
+   "Getting the software right took longer than the case. After a white screen I could not SSH into and Chromium refusing to open in kiosk mode, I rebuilt it on Pi OS Lite. Now it boots, joins Wi-Fi and opens a SimHub dashboard from my PC on its own. I wrote the whole setup down as a guide."
+  ]
+ },
+ {
+  "id": "go-kart",
+  "title": "Go-Kart Restoration",
+  "kind": "Engine repair and fabrication \u00b7 2025",
+  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2026/10/gokart-2025-06-frame-a.jpg?w=1000",
+  "alt": "The Yamaha KT100 go-kart before the restoration",
+  "url": "https://spfmakerclub.wordpress.com/go-kart-build/",
+  "short": "Bringing a Yamaha KT100 kart back to life, one problem at a time.",
+  "text": [
+   "A Yamaha KT100 Swiss Hutless kart that had sat for years. It would only run for four seconds on starter fluid. Taking the carburetor apart, my dad and I found a worn pump diaphragm that would not pulse.",
+   "After that came a homemade kill switch (the factory harness was missing, and the kart nearly went through the garage door), a smaller split sprocket so it would not drag on the asphalt, a rusted axle, and yellow Dark Knight stripes. Then, finally, the first real drive."
+  ]
+ },
+ {
+  "id": "tensioner",
+  "title": "Seatbelt Tensioner",
+  "kind": "Mechanical and embedded \u00b7 2024 to 2025",
+  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2026/10/tensioner-2025-01-harness-on-seat.jpg?w=1000",
+  "alt": "The racing harness installed on my sim rig seat",
+  "url": "https://spfmakerclub.wordpress.com/sim-rig-seatbelt-tensioner/",
+  "short": "Motors that pull the harness tight under braking, driven by game data.",
+  "text": [
+   "Motors behind the seat wind the harness straps tighter as the car brakes, using telemetry from the game through SimHub. I designed the housings, a 3:1 reduction and a center buckle, and wrote the control code.",
+   "The first version burned out its drivers a few minutes into a session, with smoke coming out of the controller box. I rebuilt the drive side and soldered my own power board to carry the current the motors actually pull."
+  ]
+ },
+ {
+  "id": "handbrake",
+  "title": "DIY Handbrake",
+  "kind": "Embedded and fabrication \u00b7 2023",
+  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2025/02/ani3522-e1739131553985.jpg?w=1000",
+  "alt": "My homemade handbrake lever mounted beside the seat",
+  "url": "https://spfmakerclub.wordpress.com/diy-handbrake/",
+  "short": "A homemade handbrake read by the game as an analog axis.",
+  "text": [
+   "A handbrake for the rig built around a potentiometer and a Circuit Playground Express running CircuitPython. The game reads it as an analog axis, so I can pull it partway instead of just on or off."
+  ]
+ },
+ {
+  "id": "variance-metrics",
+  "title": "AnTrust Variance Metrics",
+  "kind": "Software, metrology internship \u00b7 2026",
+  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2026/10/variance-overview.jpg?w=1000",
+  "alt": "The overview screen of the Variance Metrics tool",
+  "url": "https://spfmakerclub.wordpress.com/antrust-building-a-board-measurement-workflow/",
+  "short": "A tool for comparing board measurements, built during my internship.",
+  "text": [
+   "An analysis and reporting tool I built during my metrology internship at AnTrust. It brings imported board readings, feature selection, comparisons and report export into one place, and handles failed readings, small samples and units honestly so a chart does not say more than the data does."
+  ]
+ },
+ {
+  "id": "splint",
+  "title": "Mallet-Finger Splint",
+  "kind": "Design for a person \u00b7 2023 to 2024",
+  "img": "assets/gallery-img-2351.jpg",
+  "alt": "A printed finger splint with ventilation holes",
+  "url": "https://spfmakerclub.wordpress.com/mallet-finger-splint/",
+  "short": "Custom splints for my dad, revised from his feedback.",
+  "text": [
+   "My dad injured his finger, and the splint he was given trapped moisture against his skin. I designed my own in CAD and printed revision after revision around what he told me: how it fit, whether he could type, how it felt after a full day. The ventilation holes are there because of him."
+  ]
+ },
+ {
+  "id": "solar-data",
+  "title": "Enphase Solar Data Software",
+  "kind": "Python and data visualization \u00b7 2024",
+  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2025/02/img_5781-1.jpg?w=1000",
+  "alt": "My solar data dashboard on a monitor at the Maker Faire",
+  "url": "https://spfmakerclub.wordpress.com/enphase-solar-data-software/",
+  "short": "Turning our household solar data into something you can explore.",
+  "text": [
+   "Python and hvPlot tools for exploring the solar production data from our house: daily curves, monthly totals and the effect of weather. I showed it at the Columbia Maker Faire."
+  ]
+ }
+]

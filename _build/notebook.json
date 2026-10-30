@@ -1,0 +1,155 @@
+[
+ {
+  "id": "femur",
+  "when": "Recovery year",
+  "where": "MIT Soccer ID camp",
+  "title": "Breaking my femur, and learning to move again",
+  "text": [
+   "I broke my femur at MIT\u2019s Soccer ID camp. I came home needing surgery and help with things I\u2019d never thought about, like getting into a car, getting out of bed, or taking a shower.",
+   "For nearly two months I needed someone for movements that used to be automatic. I\u2019d spent years designing a simulator with six degrees of freedom, and now I was negotiating for one. The part that surprised me was that the things that usually got me up, like design, photography and sim racing, didn\u2019t pull me for a while either.",
+   "My parents carried a lot of that time, literally. Watching them help me, I started thinking about the person doing the lifting as well as the person being lifted. I sketched a spring-assisted leg support in Fusion that I couldn\u2019t build while recovering, and I pitched a vacuum-stiffened transfer mat as a possible Electronics Club project. Neither one is finished, but they\u2019re how I started making things again.",
+   "Still on crutches, I made it to the Indianapolis 500. Being around the cars again was exactly what I needed."
+  ],
+  "photos": [
+   [
+    "assets/indy-500-crutches-1.jpg",
+    "At the Indy 500, still on crutches."
+   ],
+   [
+    "assets/indy-500-crutches-2.jpg",
+    "In the display area at the Indy 500."
+   ]
+  ]
+ },
+ {
+  "id": "west-virginia",
+  "when": "June 2026",
+  "where": "West Virginia",
+  "title": "Nine hours to find a place to camp",
+  "text": [
+   "Austen and I drove about three hours to West Virginia, picked a mountain, and spent the day exploring it. We didn\u2019t have a campsite picked out. We kept hiking and scouting for somewhere to stay, and it took about nine hours before we found a spot near the top.",
+   "It was dispersed camping, away from any campground. No cell service, no water source at the peak, and we were in bear country with bear spray on our belts. We cooked over a wood fire and slept up there. Waking up to that view made the nine hours worth it."
+  ],
+  "photos": [
+   [
+    "assets/hiking-camp-view.jpg",
+    "Our view that evening, June 24, 2026."
+   ],
+   [
+    "assets/hiking-overlook.jpg",
+    "Back out on the mountain the next day."
+   ],
+   [
+    "assets/hiking-scouting.jpg",
+    "Scouting for a spot."
+   ]
+  ]
+ },
+ {
+  "id": "bwi-trail",
+  "when": "BWI to Annapolis",
+  "where": "with Austen and Ayaan",
+  "title": "Riding the BWI Trail to Annapolis",
+  "text": [
+   "Austen, Ayaan and I rode from BWI all the way down to Annapolis. The BWI Trail loops around the airport and connects to the B&amp;A Trail, which runs almost straight to the water, so you can do the whole thing without riding on a major road.",
+   "It\u2019s a long day on a bike. The fun part was that nobody really trained for it. We just packed water, picked a time to leave, and kept each other going when the legs started to complain. Getting to Annapolis and seeing the boats felt like we\u2019d actually earned it."
+  ],
+  "photos": []
+ },
+ {
+  "id": "silverstone",
+  "when": "July 2025",
+  "where": "Silverstone, England",
+  "title": "The British Grand Prix, in the rain",
+  "text": [
+   "I\u2019ve watched Formula 1 for years, mostly from a sim rig or a couch. Being at Silverstone for the British Grand Prix with my family was completely different. You feel the cars in your chest before you see them.",
+   "Race day was wet, and I spent most of it trying to keep my camera dry while getting shots through the spray. A wet race is chaos for the drivers and a gift for photographers: the rooster tails behind each car turn every frame into a story. Some of my favorite photos I\u2019ve ever taken came from that day."
+  ],
+  "photos": [
+   [
+    "assets/silverstone-rain.jpg",
+    "Through the spray on the straight."
+   ],
+   [
+    "assets/gallery--ani5307.jpg",
+    "A Ferrari side-on."
+   ],
+   [
+    "assets/gallery--ani5108.jpg",
+    "The curbing leading back to the car."
+   ],
+   [
+    "assets/gallery-img-9137.jpg",
+    "At Silverstone with family."
+   ]
+  ]
+ },
+ {
+  "id": "mit-splash",
+  "when": "2023",
+  "where": "MIT Splash",
+  "title": "Building an underwater robot at MIT Splash",
+  "text": [
+   "MIT Splash is a weekend where MIT students teach classes to middle and high schoolers on almost anything. I signed up for an underwater robotics class, and it ended up being one of my favorite weekends.",
+   "We built a small underwater robot in teams with people I\u2019d met that morning. What I enjoyed most was how different everyone was. We came from different schools and backgrounds, and each person noticed different problems. That mix made our robot better than anything I would have built alone, and it\u2019s a big part of why I like working on teams now."
+  ],
+  "photos": [
+   [
+    "https://spfmakerclub.wordpress.com/wp-content/uploads/2026/10/mit-splash-2023-underwater-robot.jpg?w=1000",
+    "Our underwater robot from the MIT Splash class."
+   ]
+  ]
+ },
+ {
+  "id": "porsche",
+  "when": "April 2022",
+  "where": "Porsche Experience Center",
+  "title": "A day at the Porsche Experience Center with my dad",
+  "text": [
+   "My dad and I spent a day at the Porsche Experience Center. I\u2019d been into cars for as long as I can remember, but this was the first time I got to be around them the way the people who build them are: seeing the race cars up close, hearing how they were set up,.",
+   "It was one of those days that turns an interest into a direction. A lot of what I\u2019ve built since, from the handbrake to the motion simulator, comes back to wanting to understand what a car is doing and why."
+  ],
+  "photos": [
+   [
+    "assets/gallery-img-3847.jpg",
+    "Outside the Porsche Experience Center."
+   ],
+   [
+    "assets/gallery-img-0359.jpg",
+    "A race car on display."
+   ],
+   [
+    "assets/gallery-img-3788.jpg",
+    "Beside a Porsche at the Experience Center."
+   ]
+  ]
+ },
+ {
+  "id": "cty",
+  "when": "Summer 2022",
+  "where": "CTY \u00b7 Santa Cruz and Dickinson",
+  "title": "Two summers at CTY",
+  "text": [
+   "I spent one summer at CTY at Dickinson College and another at UC Santa Cruz. My sister Bia flew out with me to Santa Cruz. It was my first time being that far from home on my own, and I slept through most of the flight.",
+   "I made friends at both: Sam and Declan at Dickinson, and Bretton, Jusin and David at Santa Cruz. CTY was the first place I was surrounded by people who got as excited about ideas as I did."
+  ],
+  "photos": [
+   [
+    "assets/flight-to-cty-2022.jpg",
+    "On the flight to Santa Cruz."
+   ],
+   [
+    "assets/gallery-img-0669.jpg",
+    "Outside with a friend at CTY."
+   ],
+   [
+    "assets/gallery-img-1550.jpg",
+    "A selfie with friends at CTY."
+   ],
+   [
+    "assets/gallery-img-1548.jpg",
+    "The CTY group, July 2022."
+   ]
+  ]
+ }
+]
