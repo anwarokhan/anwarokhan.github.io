@@ -7,6 +7,8 @@ D = json.load(open(os.path.join(ROOT, '_build', 'data.json')))
 WP = 'https://spfmakerclub.wordpress.com/'
 UP = WP + 'wp-content/uploads/'
 e = html.escape
+import time
+VER = str(int(time.time()))
 
 NAV = [('index.html', 'Home'), ('work.html', 'Work'), ('photographs.html', 'Photography'),
        ('notebook.html', 'Notebook'), ('videos.html', 'Videos'), ('about.html', 'About'), (WP, 'Maker Club')]
@@ -18,7 +20,7 @@ def page(fname, title, body, desc='Projects, photography and notes by Anwar Khan
 <title>{e(title)}</title><meta name="description" content="{e(desc)}">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css"></head>
+<link rel="stylesheet" href="style.css?v={VER}"></head>
 <body><a class="skip" href="#main">Skip to content</a>
 <header class="site-head"><div class="wrap"><a class="mark" href="index.html">Anwar <span>Khan</span></a>
 <button class="menu-btn" aria-expanded="false" aria-controls="nav">Menu</button>
@@ -28,7 +30,7 @@ def page(fname, title, body, desc='Projects, photography and notes by Anwar Khan
 <a href="mailto:spfmakerclub@gmail.com">spfmakerclub@gmail.com</a></div>
 <div><a href="assets/anwar-khan-photography-portfolio.pdf">Photography portfolio (PDF)</a> &nbsp; <a href="{WP}">SPF Maker Club</a> &nbsp; <a href="https://www.thingiverse.com/AcidicCane/designs">Thingiverse</a> &nbsp; <a href="https://grabcad.com/anwar.o.khan-1">GrabCAD</a> &nbsp; <a href="https://atholton-electronics-club.vercel.app/">Electronics Club</a></div></div></footer>
 <div class="lightbox" role="dialog" aria-modal="true" aria-label="Photo viewer"><button type="button">Close</button><figure><img alt=""><figcaption></figcaption></figure></div>
-<script src="site.js"></script></body></html>'''
+<script src="site.js?v={VER}"></script></body></html>'''
     open(os.path.join(ROOT, fname), 'w').write(doc)
 
 def zoom(src, alt, cap='', cls=''):
