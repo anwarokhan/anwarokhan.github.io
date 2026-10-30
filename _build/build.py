@@ -50,10 +50,15 @@ page('work.html', 'Work · Anwar Khan', f'''<div class="wrap">
 <section class="club"><div><h2>Want the whole story?</h2><p>Every project above has a full build journal on SPF Maker Club, plus the club's older projects from before I took over.</p></div><a class="btn big yellow" href="{WP}blog/">Browse all build journals</a></section></div>''')
 
 # ---------------- photography ----------------
+from PIL import Image
+def dims(s):
+    try:
+        w,h=Image.open(os.path.join(ROOT,s)).size; return f'width="{w}" height="{h}"'
+    except Exception: return ''
 PH = D['photos_ranked']
 filters = [('all', 'All'), ('cars', 'Motorsport'), ('city', 'City'), ('outdoors', 'Outdoors'), ('sports', 'Sports'), ('film', 'Film'), ('digital', 'Digital'), ('edits', 'Composites')]
 wall = ''.join(
-    f'<figure data-full="{e(s)}" data-caption="{e(c)}" data-tags="{e(t)}"><img src="{e(s)}" alt="{e(c.split(":")[0])}" loading="lazy"><figcaption><b>{e(c.split(":")[0])}</b>{(" · " + e(m)) if m else ""}</figcaption></figure>'
+    f'<figure data-full="{e(s)}" data-caption="{e(c)}" data-tags="{e(t)}"><img src="{e(s)}" {dims(s)} alt="{e(c.split(":")[0])}" loading="lazy"><figcaption><b>{e(c.split(":")[0])}</b>{(" · " + e(m)) if m else ""}</figcaption></figure>'
     for s, c, t, m in PH)
 page('photographs.html', 'Photography · Anwar Khan', f'''<div class="wrap">
 <section class="page-head"><h1>Photography</h1><p class="lede">Cars at the track, city streets, the water, soccer, and Loki. I shoot film and digital. The strongest frames are first.</p></section>

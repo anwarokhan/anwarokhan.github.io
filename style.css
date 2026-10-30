@@ -160,3 +160,6 @@ p{margin:0 0 1.1em;max-width:var(--measure)}
 .nav a.ext{border:1px solid var(--green);color:var(--green);margin-left:6px}
 .nav a.ext:hover{background:var(--green);color:#fff}
 .portrait figcaption,.hero-photo figcaption{font-size:.88rem}
+/* JS masonry keeps rank order reading left to right */
+.wall.js{columns:auto;display:flex;gap:18px;align-items:flex-start}
+.wall.js .col{flex:1 1 0;min-width:0}
