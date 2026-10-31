@@ -171,3 +171,5 @@ p{margin:0 0 1.1em;max-width:var(--measure)}
 .ph-cover span{display:block;margin-top:10px}
 .ph-head .link-row{margin-top:4px}
 @media (max-width:860px){.ph-head{grid-template-columns:1fr;gap:24px}.ph-cover{max-width:420px}}
+/* keep the home hero photo landscape */
+.hero-photo img{aspect-ratio:3/2;object-fit:cover;max-height:460px}
