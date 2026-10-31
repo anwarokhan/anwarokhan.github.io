@@ -122,7 +122,7 @@
    ],
    "photos": [
     [
-     "assets/sim-rig-2026-cockpit.jpg",
+     "assets/sim-rig-2026-full.jpg",
      "My sim rig today, October 2026."
     ],
     [
@@ -215,8 +215,8 @@
    "I’m Ani, a senior at Atholton High School. I design and build machines, mostly ones that have to do with cars, and I photograph whatever catches my eye.",
    "This is where my projects, photography and the stories behind them live. Every build has a full journal on the <a href=\"https://spfmakerclub.wordpress.com/\">SPF Maker Club</a> site, which I’ve run since 2023."
   ],
-  "photo": "assets/sim-rig-2026-full.jpg",
-  "photo_alt": "My sim racing rig: an aluminum-extrusion cockpit with a curved monitor, a Moza formula wheel and a Sparco seat",
+  "photo": "assets/sim-rig-2026-cockpit.jpg",
+  "photo_alt": "My sim racing rig: an aluminum-extrusion cockpit with a curved monitor, a Moza formula wheel, dash and button boxes",
   "photo_cap": "My sim rig as it stands in October 2026. The motion platform will go underneath it."
  }
 }
