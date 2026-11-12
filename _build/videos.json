@@ -4,29 +4,74 @@
   "items": [
    {
     "title": "Aqua Guardian: SSFT submission",
-    "meta": "AHS Electronics Club \u00b7 2026",
+    "meta": "AHS Electronics Club · 2026",
     "vimeo": "1165198659"
    },
    {
     "title": "Go-kart: first laps after the rebuild",
-    "meta": "Go-kart build \u00b7 2025",
+    "meta": "Go-kart build · 2025",
     "youtube": "TibqmmFja4M"
    },
    {
     "title": "Go-kart: on track",
-    "meta": "Go-kart build \u00b7 2025",
+    "meta": "Go-kart build · 2025",
     "youtube": "-8FDpJu7exo"
    },
    {
     "title": "6DoF motion sim: axis test",
-    "meta": "6DoF Motion Sim \u00b7 2025",
+    "meta": "6DoF Motion Sim · 2025",
     "vimeo": "1078172912"
    },
    {
     "title": "Inside our buoy",
-    "meta": "Aqua Guardian \u00b7 wiring and electronics",
+    "meta": "Aqua Guardian · wiring and electronics",
     "src": "assets/aqua-guardian-inside.mp4",
     "poster": "assets/aqua-guardian-inside-poster.jpg"
+   }
+  ]
+ },
+ {
+  "group": "Aqua Guardian launch",
+  "items": [
+   {
+    "title": "Putting the buoy together at the lake",
+    "meta": "Lake Elkhorn · November 11, 2026",
+    "src": "assets/buoy-launch-2026-11-lake-assembly.mp4",
+    "poster": "assets/buoy-launch-2026-11-lake-assembly.jpg",
+    "muted": true
+   },
+   {
+    "title": "Getting ready in the lab",
+    "meta": "Timelapse · November 2026",
+    "src": "assets/buoy-launch-2026-11-lab-prep-timelapse.mp4",
+    "poster": "assets/buoy-launch-2026-11-lab-prep-timelapse.jpg",
+    "muted": true
+   }
+  ]
+ },
+ {
+  "group": "PC case build",
+  "items": [
+   {
+    "title": "Assembling the printed case",
+    "meta": "Timelapse · November 2026",
+    "src": "assets/pc-case-2026-11-assembly-timelapse.mp4",
+    "poster": "assets/pc-case-2026-11-assembly-timelapse.jpg",
+    "muted": true
+   },
+   {
+    "title": "Setting heat-set inserts",
+    "meta": "Timelapse · November 2026",
+    "src": "assets/pc-case-2026-11-inserts-timelapse.mp4",
+    "poster": "assets/pc-case-2026-11-inserts-timelapse.jpg",
+    "muted": true
+   },
+   {
+    "title": "Test-fitting the motherboard",
+    "meta": "Timelapse · November 2026",
+    "src": "assets/pc-case-2026-11-motherboard-timelapse.mp4",
+    "poster": "assets/pc-case-2026-11-motherboard-timelapse.jpg",
+    "muted": true
    }
   ]
  },
@@ -35,20 +80,20 @@
   "items": [
    {
     "title": "Sanding the triple-monitor bracket",
-    "meta": "Sim rig \u00b7 custom metal bracket",
+    "meta": "Sim rig · custom metal bracket",
     "src": "assets/monitor-bracket-sanding.mp4",
     "poster": "assets/monitor-bracket-sanding.jpg"
    },
    {
     "title": "Shaping a metal part for the monitor mount",
-    "meta": "Sim rig \u00b7 September 2026",
+    "meta": "Sim rig · September 2026",
     "src": "assets/wood-shaping-september-2026.mp4",
     "poster": "assets/wood-shaping-september-2026.jpg",
     "muted": true
    },
    {
     "title": "Team workshop",
-    "meta": "Electronics Club \u00b7 February 2026",
+    "meta": "Electronics Club · February 2026",
     "src": "assets/electronics-team-bench.mp4",
     "poster": "assets/electronics-team-bench.jpg",
     "muted": true
@@ -113,7 +158,7 @@
    },
    {
     "title": "Coming back to give a speech",
-    "meta": "September 2022 \u00b7 Malcolm E. Nettingham Middle School",
+    "meta": "September 2022 · Malcolm E. Nettingham Middle School",
     "src": "assets/convocation-speech.mp4",
     "poster": "assets/convocation-speech-poster.jpg"
    },

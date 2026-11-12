@@ -1,5 +1,31 @@
 [
  {
+  "id": "buoy-launch",
+  "when": "November 2026",
+  "where": "Lake Elkhorn, Columbia",
+  "title": "Launch day at Lake Elkhorn",
+  "text": [
+   "We launched the buoy. On November 11 at 10 in the morning, the Electronics Club met a Columbia Association crew of about four people at Lake Elkhorn. We put the last pieces together on the dock, and then they took me out on their boat to set it down in the water.",
+   "The launch itself went well. The next few hours did not feel like it. The buoy wasn’t uploading anything, the crew had already left, and we had no way to get out to it. I went to bed not knowing if it was working. The next morning I woke up and there was a new entry on the site. We think the battery was dead when it went in, and it just needed the morning sun to charge back up.",
+   "Then I looked at the live data card and it said an internal leak was detected. That was the second jumpscare. It comes from the humidity sensor inside the hull, which is either reading way too high or the air in there really is humid, but there’s no leak. I checked a couple of hours later and the buoy was still floating right where we left it.",
+   "So it was eventful, but it was a successful launch, and the team and I are very, very happy. We still have to calibrate five of the sensors (pH, dissolved oxygen, ORP, turbidity and EC), but the data is coming in at the intervals we set. The full write-up is in the <a href=\"https://spfmakerclub.wordpress.com/aqua-guardian-ahs-electronics-club/\">Aqua Guardian build journal</a>."
+  ],
+  "photos": [
+   [
+    "assets/buoy-launch-2026-11-fall-shoreline.jpg",
+    "The buoy on Lake Elkhorn."
+   ],
+   [
+    "assets/buoy-launch-2026-11-close.jpg",
+    "Up close, with the solar panel catching the light."
+   ],
+   [
+    "assets/buoy-launch-2026-11-wide.jpg",
+    "How small it looks from across the lake."
+   ]
+  ]
+ },
+ {
   "id": "femur",
   "when": "July 2026",
   "where": "MIT Cardinal & Gray soccer ID camp",

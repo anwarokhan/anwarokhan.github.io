@@ -26,18 +26,32 @@
   "id": "aqua-guardian",
   "title": "Aqua Guardian",
   "kind": "Team project with the Atholton Electronics Club · 2025 to now",
-  "img": "https://spfmakerclub.wordpress.com/wp-content/uploads/2026/10/aqua-guardian-2026-01-wiring-dome.jpg?w=1000",
-  "alt": "Wiring the electronics inside the orange buoy dome",
+  "img": "assets/buoy-launch-2026-11-fall-shoreline.jpg",
+  "alt": "The orange Aqua Guardian buoy floating on Lake Elkhorn with fall trees behind it",
   "url": "https://spfmakerclub.wordpress.com/aqua-guardian-ahs-electronics-club/",
-  "short": "A solar water-quality buoy. I lead the mechanical team.",
+  "short": "A solar water-quality buoy, now floating in Lake Elkhorn. I lead the mechanical team.",
   "text": [
-   "Our Electronics Club’s floating water-quality station: it runs on solar power, samples the water it sits in, and uploads what it measures so anyone can check it. I co-founded the club and lead its mechanical team, so the hull, mounts, panels and enclosure are mine to figure out with the team. The steep A-frame solar panels keep it powered as it turns on its anchor. A foam ring at the waterline keeps it upright in wind. A teammate learning heat simulations caught that my antenna mount was hurting the signal, and we redesigned it together. We tested it through the ice in February, made the Samsung Solve for Tomorrow national semifinals as one of two Maryland teams (winning $10,000 for our school), and just got approval to launch in Lake Elkhorn."
+   "Our Electronics Club’s floating water-quality station: it runs on solar power, samples the water it sits in, and uploads what it measures so anyone can check it. I co-founded the club and lead its mechanical team, so the hull, mounts, panels and enclosure are mine to figure out with the team. The steep A-frame solar panels keep it powered as it turns on its anchor. A foam ring at the waterline keeps it upright in wind. A teammate learning heat simulations caught that my antenna mount was hurting the signal, and we redesigned it together. We tested it through the ice in February and made the Samsung Solve for Tomorrow national semifinals as one of two Maryland teams (winning $10,000 for our school).",
+   "On November 11, 2026 we launched it in Lake Elkhorn. A Columbia Association crew took me out on their boat to set it down, and it has been uploading data ever since. It wasn’t a calm first day: the buoy went silent for hours after the crew left, and later the live data card told me there was a leak inside. Both turned out fine. The next job is calibrating five of the sensors."
   ],
   "models": [
    [
     "https://a360.co/4sSlGQV",
     "View the buoy in 3D"
    ]
+  ]
+ },
+ {
+  "id": "pc-case",
+  "title": "3D-Printed PC Case",
+  "kind": "CAD and 3D printing · 2026",
+  "img": "assets/pc-case-2026-11-board-in-shell.jpg",
+  "alt": "The printed orange and white case shell on my bench with the motherboard mounted inside",
+  "url": "https://spfmakerclub.wordpress.com/pc-case-build/",
+  "short": "A gaming PC in a case I designed and printed, from a thin console to the smallest box I can manage.",
+  "text": [
+   "I wanted a gaming PC that didn’t look like a PC, so I designed an ultra-thin, console-style case in Fusion 360 and printed it in pieces: orange front shells, white rear shells, black lids, and heat-set inserts everywhere. It can lie flat or stand up, and every plug comes out the back. It took twelve versions, a riser cable, and more reprints than I’d like to admit.",
+   "Then I tried to fit my main PC into the same shape, with a full ATX board and an RTX 3080, and the console idea stopped making sense. So I started over with one goal: the smallest volume those parts can fit in, smaller than the MODCASE Hyper that inspired it. I also used Claude to help with the CAD, which taught me a lot about where a tool like that helps and where it doesn’t. The full story is in the build journal."
   ]
  },
  {
