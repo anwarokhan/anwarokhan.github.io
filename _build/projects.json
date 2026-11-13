@@ -52,6 +52,44 @@
   "text": [
    "I wanted a gaming PC that didn’t look like a PC, so I designed an ultra-thin, console-style case in Fusion 360 and printed it in pieces: orange front shells, white rear shells, black lids, and heat-set inserts everywhere. It can lie flat or stand up, and every plug comes out the back. It took twelve versions, a riser cable, and more reprints than I’d like to admit.",
    "Then I tried to fit my main PC into the same shape, with a full ATX board and an RTX 3080, and the console idea stopped making sense. So I started over with one goal: the smallest volume those parts can fit in, smaller than the MODCASE Hyper that inspired it. I also used Claude to help with the CAD, which taught me a lot about where a tool like that helps and where it doesn’t. The full story is in the build journal."
+  ],
+  "gallery": [
+   [
+    "assets/pc-case-2026-11-v12-iso-front.jpg",
+    "Version 12 of the full ATX console case in Fusion 360, front three-quarter view"
+   ],
+   [
+    "assets/pc-case-2026-11-v12-iso-rear.jpg",
+    "Version 12 of the full ATX console case from the other side"
+   ],
+   [
+    "assets/pc-case-2026-11-v12-top.jpg",
+    "Version 12 from the top, showing the GPU, motherboard and cooler layout"
+   ],
+   [
+    "assets/pc-case-2026-11-v12-side.jpg",
+    "Version 12 from the side, with the vertical stand attached"
+   ],
+   [
+    "assets/pc-case-2026-11-nova-front-iso.jpg",
+    "The new compact case in Fusion 360, front three-quarter view"
+   ],
+   [
+    "assets/pc-case-2026-11-nova-rear-iso.jpg",
+    "The new compact case from the back, with the motherboard I/O and the power button side"
+   ],
+   [
+    "assets/pc-case-2026-11-nova-front.jpg",
+    "The new compact case, straight on from the front"
+   ],
+   [
+    "assets/pc-case-2026-11-nova-top.jpg",
+    "The new compact case from the top"
+   ],
+   [
+    "assets/pc-case-2026-11-nova-internals.jpg",
+    "The new compact case with the shells and lids hidden to show the parts inside"
+   ]
   ]
  },
  {
