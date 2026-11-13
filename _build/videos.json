@@ -46,6 +46,34 @@
     "src": "assets/buoy-launch-2026-11-lab-prep-timelapse.mp4",
     "poster": "assets/buoy-launch-2026-11-lab-prep-timelapse.jpg",
     "muted": true
+   },
+   {
+    "title": "Heading out from the dock",
+    "meta": "Lake Elkhorn · November 11, 2026 · sped up",
+    "src": "assets/buoy-launch-2026-11-boat-out.mp4",
+    "poster": "assets/buoy-launch-2026-11-boat-out.jpg",
+    "muted": true
+   },
+   {
+    "title": "On the boat with the buoy",
+    "meta": "Lake Elkhorn · November 11, 2026 · sped up",
+    "src": "assets/buoy-launch-2026-11-crew-aboard.mp4",
+    "poster": "assets/buoy-launch-2026-11-crew-aboard.jpg",
+    "muted": true
+   },
+   {
+    "title": "Setting the buoy in the water",
+    "meta": "Lake Elkhorn · November 11, 2026 · sped up",
+    "src": "assets/buoy-launch-2026-11-deploy.mp4",
+    "poster": "assets/buoy-launch-2026-11-deploy.jpg",
+    "muted": true
+   },
+   {
+    "title": "The buoy afloat",
+    "meta": "Lake Elkhorn · November 11, 2026",
+    "src": "assets/buoy-launch-2026-11-afloat.mp4",
+    "poster": "assets/buoy-launch-2026-11-afloat.jpg",
+    "muted": true
    }
   ]
  },
