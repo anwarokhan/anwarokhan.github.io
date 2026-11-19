@@ -45,15 +45,28 @@
   "id": "pc-case",
   "title": "3D-Printed PC Case",
   "kind": "CAD and 3D printing · 2026",
-  "img": "assets/pc-case-2026-11-board-in-shell.jpg",
-  "alt": "The printed orange and white case shell on my bench with the motherboard mounted inside",
+  "img": "assets/pc-case-2026-11-nova-photo-flat.jpg",
+  "alt": "The finished NOVA case lying flat on my bench, front panel with the AK DESIGNS logo, power button and USB ports",
   "url": "https://spfmakerclub.wordpress.com/pc-case-build/",
   "short": "A gaming PC in a case I designed and printed, from a thin console to the smallest box I can manage.",
   "text": [
    "I wanted a gaming PC that didn’t look like a PC, so I designed an ultra-thin, console-style case in Fusion 360 and printed it in pieces: orange front shells, white rear shells, black lids, and heat-set inserts everywhere. It can lie flat or stand up, and every plug comes out the back. It took twelve versions, a riser cable, and more reprints than I’d like to admit.",
-   "Then I tried to fit my main PC into the same shape, with a full ATX board and an RTX 3080, and the console idea stopped making sense. So I started over with one goal: the smallest volume those parts can fit in, smaller than the MODCASE Hyper that inspired it. I also used Claude to help with the CAD, which taught me a lot about where a tool like that helps and where it doesn’t. The full story is in the build journal."
+   "Then I tried to fit my main PC into the same shape, with a full ATX board and an RTX 3080, and the console idea stopped making sense. So I started over with one goal: the smallest volume those parts can fit in, smaller than the MODCASE Hyper that inspired it. I also used Claude to help with the CAD, which taught me a lot about where a tool like that helps and where it doesn’t. The full story is in the build journal.",
+   "That case is NOVA, and it’s done. It’s printed, assembled and running my main PC: about 13.3 x 13.5 x 6.1 inches, every plug on the back, and it works standing up or lying flat."
   ],
   "gallery": [
+   [
+    "assets/pc-case-2026-11-nova-photo-front.jpg",
+    "The finished NOVA standing up, from the front corner"
+   ],
+   [
+    "assets/pc-case-2026-11-nova-photo-rear.jpg",
+    "The finished NOVA from the back: PSU, GPU bracket and motherboard I/O"
+   ],
+   [
+    "assets/pc-case-2026-11-nova-photo-side.jpg",
+    "NOVA from the side, with the four hex-vent panels"
+   ],
    [
     "assets/pc-case-2026-11-v12-iso-front.jpg",
     "Version 12 of the full ATX console case in Fusion 360, front three-quarter view"
